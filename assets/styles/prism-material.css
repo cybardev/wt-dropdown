@@ -9,7 +9,7 @@ pre[class*="language-"] {
 	background: #fafafa;
 	font-family: Roboto Mono, monospace;
 	font-size: 1em;
-	line-height: 1.5em;
+	line-height: 1.5;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
