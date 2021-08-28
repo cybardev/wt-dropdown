@@ -12,7 +12,7 @@ PS: This was intended for my personal use only. It should work for others with m
 
 ### Source
 
-```
+```autoit
 ; variables to change
 $termName = "wt.exe"  ; terminal program
 $tabName = "Kali"     ; default tab name
