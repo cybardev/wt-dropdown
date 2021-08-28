@@ -1,4 +1,4 @@
-Windows Terminal has a built-in dropdown mode, but there's no way to passively keep it on in the background at startup. The only way to activate it from my experience is to open an instance of the app, press the hotkey for the dropdown (<code>Win+`</code> by default) to activate it, press it again to hide it, then close the first instance.
+Windows Terminal has a built-in dropdown mode, but there's no way to passively keep it on in the background at startup. The only way to activate it from my experience is to open an instance of the app, press the hotkey for the dropdown (`` Win+` `` by default) to activate it, press it again to hide it, then close the first instance.
 
 This script does that all in one go, given that `wt.exe` is on the `$PATH`. I've set it as a Startup program since I regularly need the dropdown and manually executing this everytime is inefficient.
 
