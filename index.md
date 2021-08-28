@@ -9,3 +9,31 @@ PS: This was intended for my personal use only. It should work for others with m
 1. Install [AutoIt3](https://www.autoitscript.com/site/autoit/downloads/)
 2. Create an executable from the `wt-dropdown.au3` script using the installed tool
 3. Place created executable in your startup directory: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+
+### Source
+
+```
+; variables to change
+$termName = "wt.exe"  ; terminal program
+$tabName = "Kali"     ; default tab name
+$hotKey = "#`"        ; dropdown hotkey
+
+; start terminal and trigger dropdown
+Run($termName)
+WinWaitActive($tabName)
+Send($hotKey)
+WinWaitActive($tabName)
+
+; check for dropdown
+If WinGetPos($tabName)[0] < 0 Then
+	; hide dropdown then close window
+	Send($hotKey)
+	WinWaitActive($tabName)
+	WinClose($tabName)
+Else
+	; close window then hide dropdown
+	WinClose($tabName)
+	WinWaitActive($tabName)
+	Send($hotKey)
+EndIf
+```
