@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Windows Terminal Dropdown
 description: Automatically activate the built-in dropdown mode of Windows Terminal
-logo: https://user-images.githubusercontent.com/50134239/109390169-2c1b9000-793a-11eb-94d4-d6b3edc631b7.png
+logo: https://raw.githubusercontent.com/cybardev/wt-dropdown/gh-pages/assets/windows-terminal.png
 show_downloads: true
