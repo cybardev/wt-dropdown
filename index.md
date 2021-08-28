@@ -12,6 +12,8 @@ PS: This was intended for my personal use only. It should work for others with m
 
 ### Source
 
+`wt-dropdown.au3`
+
 ```autoit
 ; variables to change
 $termName = "wt.exe"  ; terminal program
