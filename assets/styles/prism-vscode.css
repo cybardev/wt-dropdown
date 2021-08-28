@@ -12,8 +12,8 @@ pre[class*="language-"] {
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
-	//font-size: .9em;
-	line-height: 1.2em;
+	font-size: 1em;
+	line-height: 1.5;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
