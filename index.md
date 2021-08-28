@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Windows Terminal Dropdown
 
-You can use the [editor on GitHub](https://github.com/cybardev/wt-dropdown/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Automatically activate the built-in dropdown mode of Windows Terminal
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Windows Terminal has a built-in dropdown mode, but there's no way to passively keep it on in the background at startup. The only way to activate it from my experience is to open an instance of the app, press the hotkey for the dropdown (`Win+\`` by default) to activate it, press it again to hide it, then close the first instance.
 
-### Markdown
+This script does that all in one go, given that `wt.exe` is on the `$PATH`. I've set it as a Startup program since I regularly need the dropdown and manually executing this everytime is inefficient.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+PS: This was intended for my personal use only. It should work for others with minimal tweaking of variables (especially `tabName`) but I don't intend to modify my script as it serves my purpose.
 
-```markdown
-Syntax highlighted code block
+### Usage
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cybardev/wt-dropdown/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. Install [AutoIt3](https://www.autoitscript.com/site/autoit/downloads/)
+2. Create an executable from the `wt-dropdown.au3` script using the installed tool
+3. Place created executable in your startup directory: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
