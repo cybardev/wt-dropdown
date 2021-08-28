@@ -6,4 +6,4 @@ show_downloads: true
 github:
   script_url: https://github.com/cybardev/wt-dropdown/releases/download/v1.0/wt-dropdown.au3
 highlight:
-  style: coldark
+  style: github
