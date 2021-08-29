@@ -46,7 +46,7 @@ Else
 EndIf
 </code></pre>
 
-<hr>
+---
 
 ### Credits
 
