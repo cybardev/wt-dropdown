@@ -56,4 +56,4 @@ Windows Terminal icon taken from the [Microsoft/Terminal](https://github.com/Mic
 
 Script and website content: [GPLv3](https://github.com/cybardev/wt-dropdown/blob/main/LICENSE)
 
-Windows Terminal icon and the Jekyll theme for this website have different license terms. Please check them out at their official repositories.
+Windows Terminal icon and the Jekyll theme for this website may have different license terms. Please check them out at their official repositories.
