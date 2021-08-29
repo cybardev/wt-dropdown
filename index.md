@@ -44,8 +44,7 @@ Else
 	WinWaitActive($tabName)
 	Send($hotKey)
 EndIf
-</code></pre>
-<br />
+</code></pre><br />
 
 ### Credits
 
