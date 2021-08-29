@@ -45,8 +45,7 @@ Else
 	Send($hotKey)
 EndIf
 </code></pre>
-
----
+<br />
 
 ### Credits
 
