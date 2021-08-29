@@ -21,7 +21,8 @@ PS: This was intended for my personal use only. It may or may not work for you. 
 
 - `wt-dropdown.au3` :
 
-<pre><code class="lang-autoit line-numbers">; variables to change
+```autoit
+; variables to change
 $termName = "wt.exe"  ; terminal program
 $tabName = "Kali"     ; default tab name
 $hotKey = "#`"        ; dropdown hotkey
@@ -44,7 +45,8 @@ Else
 	WinWaitActive($tabName)
 	Send($hotKey)
 EndIf
-</code></pre><br />
+```
+<br />
 
 ### Credits
 
