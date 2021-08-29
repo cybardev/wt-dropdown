@@ -7,7 +7,11 @@
     {% seo %}
     <link rel="shortcut icon" href="https://user-images.githubusercontent.com/50134239/131228813-753fd04b-8e37-44be-8616-2e903c7755b0.png">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!-- prism.js styles -->
     <link rel="stylesheet" href="{{ site.highlight.path }}-{{ site.highlight.style }}.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.css" integrity="sha512-cbQXwDFK7lj2Fqfkuxbo5iD1dSbLlJGXGpfTDqbggqjHJeyzx88I3rfwjS38WJag/ihH7lzuGlGHpDBymLirZQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autolinker/prism-autolinker.min.css" integrity="sha512-4ZmAB2UXPu3Rgy5ZClpqnJ/zXXZBdulFXY1eWMLgIjp2HWgkHGIpr1b7kmCK+rdD5NYfivTp47UR+bQ4oTBllQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- prism.js styles -->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -46,7 +50,12 @@
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="{{ site.highlight.path }}.js"></script>
+    <!-- prism.js scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js" integrity="sha512-axJX7DJduStuBB8ePC8ryGzacZPr3rdLaIDZitiEgWWk2gsXxEFlm4UW0iNzj2h3wp5mOylgHAzBzM4nRSvTZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-autoit.min.js" integrity="sha512-3F1zWqLG7oYxznKfFvvoYcypQZzsBqXAcxeMvzokXZDT3qrdT4HhQT7xtDJegyyu8Qmjpv3GrkDRJQ09Jh7H2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autolinker/prism-autolinker.min.js" integrity="sha512-PaneznVpkV74O5FWaHuGG2Pa9aVgbrnDwLFbcebZikYcFVPUYimvlZUAX6AElPKDJsSDTBl7aN6V1WxFDi24aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- prism.js scripts -->
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
