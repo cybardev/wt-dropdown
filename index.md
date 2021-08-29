@@ -46,7 +46,7 @@ Else
 	Send($hotKey)
 EndIf
 ```
-
+<br/>
 
 ### Credits
 
