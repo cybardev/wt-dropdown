@@ -7,4 +7,4 @@ github:
   script_url: https://github.com/cybardev/wt-dropdown/releases/download/v1.0/wt-dropdown.au3
 highlight:
   path: assets/styles/prism
-  style: default
+  style: coldark
