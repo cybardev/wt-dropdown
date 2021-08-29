@@ -45,3 +45,13 @@ Else
 	Send($hotKey)
 EndIf
 </code></pre>
+
+### Credits
+
+Windows Terminal icon taken from the [Microsoft/Terminal](https://github.com/Microsoft/Terminal) GitHub repository.
+
+### License
+
+Script and website content: GPLv3
+
+Windows Terminal icon and the Jekyll theme for this website have different license terms. Please check them out at their official repositories.
