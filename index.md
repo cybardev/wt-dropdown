@@ -46,6 +46,8 @@ Else
 EndIf
 </code></pre>
 
+<hr>
+
 ### Credits
 
 Windows Terminal icon taken from the [Microsoft/Terminal](https://github.com/Microsoft/Terminal) GitHub repository.
