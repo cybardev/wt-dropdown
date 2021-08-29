@@ -22,3 +22,42 @@ PS: This was intended for my personal use only. It may or may not work for you. 
 1. Install [AutoIt3](https://www.autoitscript.com/site/autoit/downloads/)
 2. Create an executable from the `wt-dropdown.au3` script using the installed tool
 3. Place created executable in your startup directory: `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
+
+### Source
+
+- `wt-dropdown.au3` :
+
+<pre><code class="lang-autoit line-numbers">; variables to change
+$termName = "wt.exe"  ; terminal program
+$tabName = "Kali"     ; default tab name
+$hotKey = "#`"        ; dropdown hotkey
+
+; start terminal and trigger dropdown
+Run($termName)
+WinWaitActive($tabName)
+Send($hotKey)
+WinWaitActive($tabName)
+
+; check for dropdown
+If WinGetPos($tabName)[0] < 0 Then
+	; hide dropdown then close window
+	Send($hotKey)
+	WinWaitActive($tabName)
+	WinClose($tabName)
+Else
+	; close window then hide dropdown
+	WinClose($tabName)
+	WinWaitActive($tabName)
+	Send($hotKey)
+EndIf
+</code></pre><br />
+
+### Credits
+
+Windows Terminal icon taken from the [Microsoft/Terminal](https://github.com/Microsoft/Terminal) GitHub repository.
+
+### License
+
+Script and website content: [GPLv3](https://github.com/cybardev/wt-dropdown/blob/main/LICENSE)
+
+Windows Terminal icon and the Jekyll theme for this website have different license terms. Please check them out at their official repositories.
